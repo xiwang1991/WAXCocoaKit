@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WAXKit_Example' do
+  pod 'WAXKit', :path => '../'
+
+  target 'WAXKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
