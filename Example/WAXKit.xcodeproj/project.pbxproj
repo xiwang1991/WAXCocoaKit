@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8FCFFA81272B999B00BEFA4B /* NetReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCFFA80272B999B00BEFA4B /* NetReq.m */; };
 		D721868EFC3C5108ECB677C0 /* Pods_WAXKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E61A539213FB3AC1370E8D2 /* Pods_WAXKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +39,9 @@
 
 /* Begin PBXFileReference section */
 		319F8D247D08B0E1BF9EF6F2 /* Pods_WAXKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAXKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E2BEAA2093FCC6F87BC0882 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3E2BEAA2093FCC6F87BC0882 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4E61A539213FB3AC1370E8D2 /* Pods_WAXKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAXKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5683D3C9CF853F23DB27EE6D /* WAXKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WAXKit.podspec; path = ../WAXKit.podspec; sourceTree = "<group>"; };
+		5683D3C9CF853F23DB27EE6D /* WAXKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WAXKit.podspec; path = ../WAXKit.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WAXKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAXKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +64,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B9577706A9FFEC15DE6E687 /* Pods-WAXKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAXKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-WAXKit_Example/Pods-WAXKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BCACFA69C2D8079FF5D3A276 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8FCFFA7E272B998B00BEFA4B /* WAXHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAXHeader.h; sourceTree = "<group>"; };
+		8FCFFA7F272B999B00BEFA4B /* NetReq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetReq.h; sourceTree = "<group>"; };
+		8FCFFA80272B999B00BEFA4B /* NetReq.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetReq.m; sourceTree = "<group>"; };
+		BCACFA69C2D8079FF5D3A276 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F0A882064D8B2C0A737F8354 /* Pods-WAXKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAXKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-WAXKit_Tests/Pods-WAXKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F0AEA0B4D4EA025E89E9F79C /* Pods-WAXKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAXKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WAXKit_Tests/Pods-WAXKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F94B43C16651E9CA082F03A9 /* Pods-WAXKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAXKit_Example.release.xcconfig"; path = "Target Support Files/Pods-WAXKit_Example/Pods-WAXKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +141,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WAXKITViewController.h */,
 				6003F5A6195388D20070C39A /* WAXKITViewController.m */,
+				8FCFFA7E272B998B00BEFA4B /* WAXHeader.h */,
+				8FCFFA7F272B999B00BEFA4B /* NetReq.h */,
+				8FCFFA80272B999B00BEFA4B /* NetReq.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +200,6 @@
 				F0AEA0B4D4EA025E89E9F79C /* Pods-WAXKit_Tests.debug.xcconfig */,
 				F0A882064D8B2C0A737F8354 /* Pods-WAXKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -366,6 +373,7 @@
 			files = (
 				6003F59E195388D20070C39A /* WAXKITAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WAXKITViewController.m in Sources */,
+				8FCFFA81272B999B00BEFA4B /* NetReq.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
